@@ -1,8 +1,7 @@
+import { Theme, Button } from '@radix-ui/themes'
 
-export default function About() {
-  return (
-    <main>
-      <div> hellow world </div>
-    </main>
-  );
-}
+export default () => (
+  <Theme>
+    <Button>Hey 👋</Button>
+  </Theme>
+)
